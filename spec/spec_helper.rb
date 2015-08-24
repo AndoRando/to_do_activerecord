@@ -13,7 +13,7 @@ RSpec.configure do |config|
       task.destroy()
     end
     List.all().each() do |list|
-      task.destroy()
+      list.destroy()
     end
   end
 end
